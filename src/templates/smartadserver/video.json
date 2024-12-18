@@ -1,0 +1,33 @@
+{
+    "id": "smart_video_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4", "video/webm"],
+          "minduration": 15,
+          "maxduration": 60,
+          "protocols": [2, 3, 5],
+          "w": 1920,
+          "h": 1080,
+          "linearity": 1,
+          "placement": 1
+        },
+        "bidfloor": 1.0,
+        "bidfloorcur": "USD",
+        "ext": {
+          "smartadserver": {
+            "placementId": "video_placement_123"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-smart.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.0.1"
+    }
+  }
+  

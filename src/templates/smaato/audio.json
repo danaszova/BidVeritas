@@ -1,0 +1,21 @@
+{
+    "id": "smaato_audio_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "audio": {
+          "mimes": ["audio/mpeg"],
+          "minduration": 15,
+          "maxduration": 120,
+          "startdelay": 0
+        },
+        "bidfloor": 0.2,
+        "bidfloorcur": "USD"
+      }
+    ],
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.4.11"
+    }
+  }
+  

@@ -1,0 +1,41 @@
+{
+    "id": "xandr_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [{ "w": 300, "h": 250 }]
+        },
+        "bidfloor": 0.75,
+        "bidfloorcur": "USD",
+        "ext": {
+          "xandr": {
+            "placementId": "xandr_placement_456",
+            "ad_quality": "high",
+            "dealId": "deal_123"
+          }
+        }
+      }
+    ],
+    "site": {
+      "id": "xandr_site_001",
+      "page": "https://example-xandr.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "10.0.0.1",
+      "geo": {
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "country": "USA",
+        "city": "Los Angeles"
+      }
+    },
+    "regs": {
+      "gdpr": 1,
+      "us_privacy": "1YNY"
+    },
+    "cur": ["USD"],
+    "tmax": 120
+  }
+  

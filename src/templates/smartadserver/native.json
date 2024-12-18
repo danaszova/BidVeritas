@@ -1,0 +1,26 @@
+{
+    "id": "smart_native_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "native": {
+          "request": "{ \"assets\": [ { \"id\": 1, \"title\": { \"text\": \"Example Title\" } }, { \"id\": 2, \"img\": { \"type\": 3, \"w\": 1200, \"h\": 627 } } ] }"
+        },
+        "bidfloor": 0.8,
+        "bidfloorcur": "USD",
+        "ext": {
+          "smartadserver": {
+            "nativeStyle": "feed"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-smart.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.0.1"
+    }
+  }
+  

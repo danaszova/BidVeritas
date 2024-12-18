@@ -1,0 +1,27 @@
+{
+    "id": "pubmatic_video_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4"],
+          "minduration": 10,
+          "maxduration": 30,
+          "linearity": 1,
+          "w": 640,
+          "h": 360,
+          "protocols": [2, 5]
+        },
+        "bidfloor": 1.2,
+        "bidfloorcur": "USD"
+      }
+    ],
+    "site": {
+      "domain": "example-pubmatic.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.1.2"
+    }
+  }
+  

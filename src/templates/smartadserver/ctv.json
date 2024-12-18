@@ -1,0 +1,34 @@
+{
+    "id": "smart_ctv_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4"],
+          "minduration": 10,
+          "maxduration": 120,
+          "placement": 2,
+          "protocols": [2, 3, 6],
+          "w": 3840,
+          "h": 2160
+        },
+        "bidfloor": 2.5,
+        "bidfloorcur": "USD",
+        "ext": {
+          "smartadserver": {
+            "placementId": "ctv_placement_001"
+          }
+        }
+      }
+    ],
+    "app": {
+      "id": "smart_ctv_app_001",
+      "name": "Example Smart CTV App",
+      "bundle": "com.smart.ctv"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.0.1"
+    }
+  }
+  

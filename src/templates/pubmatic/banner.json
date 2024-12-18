@@ -1,0 +1,30 @@
+{
+    "id": "pubmatic_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [
+            { "w": 300, "h": 250 }
+          ],
+          "pos": 1
+        },
+        "bidfloor": 0.7,
+        "bidfloorcur": "USD",
+        "ext": {
+          "pwt": {
+            "profileId": "123",
+            "versionId": "1.0.0"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-pubmatic.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.1.2"
+    }
+  }
+  

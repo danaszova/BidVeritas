@@ -1,0 +1,33 @@
+{
+    "id": "openx_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [{ "w": 300, "h": 600 }]
+        },
+        "bidfloor": 0.5,
+        "bidfloorcur": "USD",
+        "ext": {
+          "openx": {
+            "inventoryType": "web",
+            "dealId": "deal_789"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-openx.com",
+      "page": "https://example-openx.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.1.15"
+    },
+    "regs": {
+      "gdpr": 1,
+      "us_privacy": "1YNN"
+    },
+    "cur": ["USD"]
+  }
+  

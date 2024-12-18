@@ -1,0 +1,38 @@
+{
+    "id": "xandr_video_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4"],
+          "minduration": 15,
+          "maxduration": 60,
+          "protocols": [2, 5],
+          "linearity": 1
+        },
+        "bidfloor": 1.2,
+        "bidfloorcur": "USD",
+        "ext": {
+          "xandr": {
+            "placementId": "video_placement_789",
+            "dealId": "deal_456"
+          }
+        }
+      }
+    ],
+    "site": {
+      "id": "xandr_site_002",
+      "domain": "example-xandr-video.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "10.0.0.2"
+    },
+    "regs": {
+      "gdpr": 1,
+      "us_privacy": "1YYN"
+    },
+    "cur": ["USD"],
+    "tmax": 100
+  }
+  

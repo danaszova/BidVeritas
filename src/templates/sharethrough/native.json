@@ -1,0 +1,26 @@
+{
+    "id": "str_native_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "native": {
+          "request": "{ \"assets\": [ { \"id\": 1, \"title\": { \"text\": \"Ad Headline\" } }, { \"id\": 2, \"img\": { \"url\": \"https://example.com/ad.jpg\", \"w\": 300, \"h\": 250 } } ] }"
+        },
+        "bidfloor": 0.7,
+        "bidfloorcur": "USD",
+        "ext": {
+          "str": {
+            "native_style": "in_feed"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-sharethrough.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.2.10"
+    }
+  }
+  

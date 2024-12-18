@@ -1,0 +1,29 @@
+{
+    "id": "smaato_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [{ "w": 320, "h": 50 }]
+        },
+        "bidfloor": 0.4,
+        "bidfloorcur": "USD",
+        "ext": {
+          "smaato": {
+            "app_bundle": "com.example.app",
+            "idfa": "abc123-def456"
+          }
+        }
+      }
+    ],
+    "app": {
+      "id": "smaato_app_001",
+      "bundle": "com.example.app",
+      "name": "Example Smaato App"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.4.10"
+    }
+  }
+  

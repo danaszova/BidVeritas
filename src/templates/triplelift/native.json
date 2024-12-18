@@ -1,0 +1,29 @@
+{
+    "id": "tlift_native_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "native": {
+          "assets": [
+            { "id": 1, "required": 1, "title": { "text": "TripleLift Ad Title" } },
+            { "id": 2, "img": { "url": "https://example.com/image.jpg", "w": 1200, "h": 627 } }
+          ]
+        },
+        "bidfloor": 0.8,
+        "bidfloorcur": "USD",
+        "ext": {
+          "triplelift": {
+            "formatId": "native_123"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-triplelift.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.2.3"
+    }
+  }
+  

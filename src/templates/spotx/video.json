@@ -1,0 +1,24 @@
+{
+    "id": "spotx_video_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4"],
+          "minduration": 15,
+          "maxduration": 60,
+          "protocols": [2, 3, 5]
+        },
+        "bidfloor": 1.5,
+        "bidfloorcur": "USD"
+      }
+    ],
+    "site": {
+      "domain": "example-spotx.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.0.5"
+    }
+  }
+  

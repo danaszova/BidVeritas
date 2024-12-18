@@ -1,0 +1,32 @@
+{
+    "id": "smart_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [
+            { "w": 300, "h": 250 },
+            { "w": 728, "h": 90 }
+          ],
+          "pos": 1
+        },
+        "bidfloor": 0.5,
+        "bidfloorcur": "USD",
+        "ext": {
+          "smartadserver": {
+            "placementId": "placement_123",
+            "inventoryId": "inventory_456"
+          }
+        }
+      }
+    ],
+    "site": {
+      "id": "site_smart_001",
+      "domain": "example-smart.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.0.1"
+    }
+  }
+  

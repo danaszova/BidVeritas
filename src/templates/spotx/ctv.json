@@ -1,0 +1,27 @@
+{
+    "id": "spotx_ctv_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "video": {
+          "mimes": ["video/mp4"],
+          "minduration": 20,
+          "maxduration": 90,
+          "w": 1920,
+          "h": 1080,
+          "protocols": [2, 3, 5]
+        },
+        "bidfloor": 3.0,
+        "bidfloorcur": "USD"
+      }
+    ],
+    "app": {
+      "id": "spotx_ctv_app",
+      "name": "SpotX CTV App"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.3.4"
+    }
+  }
+  

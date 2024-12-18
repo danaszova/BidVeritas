@@ -1,0 +1,29 @@
+{
+    "id": "verizon_native_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "native": {
+          "request": "{ \"assets\": [ { \"id\": 1, \"title\": { \"text\": \"Ad Title Here\" } }, { \"id\": 2, \"data\": { \"type\": 1, \"value\": \"Example Call-to-Action\" } } ] }"
+        },
+        "bidfloor": 0.9,
+        "bidfloorcur": "USD",
+        "ext": {
+          "verizon": {
+            "native_data": {
+              "headline": "Example Headline",
+              "cta": "Learn More"
+            }
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-verizon.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.5.10"
+    }
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "id": "index_banner_001",
+    "imp": [
+      {
+        "id": "imp1",
+        "banner": {
+          "format": [
+            { "w": 300, "h": 250 },
+            { "w": 728, "h": 90 }
+          ]
+        },
+        "bidfloor": 0.6,
+        "bidfloorcur": "USD",
+        "ext": {
+          "ix": {
+            "header_bid": true,
+            "deal_priority": "high"
+          }
+        }
+      }
+    ],
+    "site": {
+      "domain": "example-indexexchange.com",
+      "page": "https://example-indexexchange.com"
+    },
+    "device": {
+      "ua": "Mozilla/5.0",
+      "ip": "192.168.1.10",
+      "geo": {
+        "lat": 40.7128,
+        "lon": -74.0060,
+        "country": "USA",
+        "region": "NY",
+        "city": "New York"
+      }
+    },
+    "regs": {
+      "gdpr": 1,
+      "us_privacy": "1YNN"
+    },
+    "user": {
+      "id": "user_ix_001"
+    },
+    "cur": ["USD"],
+    "tmax": 120
+  }
+  
