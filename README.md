@@ -73,49 +73,30 @@ GET /generate-bid-request?ssp={ssp_name}&format={ad_format}
 ## Usage
 
 ### Run Locally
-Start the server using:
 
-```bash
-npm run start:dev
-
-3. Usage
-  * Run Locally
-  * Test with cURL
-4. Templates
-5. Contributing
-6. License
-**Getting Started**
-**1. Clone the Repository**
-`git clone https://github.com/yourusername/ssp-bid-request-framework.git cd ssp-bid-request-framework`
-**2. Install Dependencies**
-`npm install`
-**3. Start the Server**
-`npm run start:dev`
-**4. Access the API**
-Once the server is running, you can use the `/generate-bid-request` endpoint to fetch bid request templates:
-`GET /generate-bid-request?ssp={ssp_name}&format={ad_format}`
-**Supported SSPs & Ad Formats**
-SSPBannerVideoNativeAudioCTVSmart AdServer✅✅✅✅PubMatic✅✅Index Exchange✅Xandr✅✅OpenX✅TripleLift✅Sharethrough✅SpotX✅✅Smaato✅✅Verizon Media✅
-**Usage**
-**Run Locally**
 1. Start the server using:
 `npm run start:dev`
 2. Use the `/generate-bid-request` endpoint with **SSP** and **ad format** parameters:
 `GET /generate-bid-request?ssp={ssp_name}&format={ad_format}`
-**Test with cURL**
+
+### Test with cURL
 Example: Smart AdServer (Banner)
 `curl -X GET "http://localhost:3000/generate-bid-request?ssp=smartadserver&format=banner"`
+
 Example: SpotX (CTV)
 `curl -X GET "http://localhost:3000/generate-bid-request?ssp=spotx&format=ctv"`
+
 Refer to the **Supported SSPs & Ad Formats** table for available combinations.
-**Templates**
+
+### Templates
 Each SSP has a dedicated directory under `src/templates` with JSON files for the ad formats they support. You can modify or add new templates as needed.
 Directory Structure:
 `src/templates/ ├── smartadserver/ │ ├── banner.json │ ├── video.json │ ├── native.json │ └── ctv.json ├── pubmatic/ │ ├── banner.json │ └── video.json ...`
-**Adding a New SSP or Format**
+### Adding a New SSP or Format
 1. Create a new directory under `src/templates` for the SSP.
 2. Add JSON files for supported ad formats.
 3. Use the `loadTemplate` utility to load the new templates dynamically.
+
 **Contributing**
 We welcome contributions! Here's how you can help:
 * Add support for new SSPs or ad formats.
