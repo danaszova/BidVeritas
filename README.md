@@ -97,7 +97,7 @@ Directory Structure:
 2. Add JSON files for supported ad formats.
 3. Use the `loadTemplate` utility to load the new templates dynamically.
 
-**Contributing**
+### Contributing
 We welcome contributions! Here's how you can help:
 * Add support for new SSPs or ad formats.
 * Improve existing templates to reflect real-world use cases.
@@ -108,9 +108,11 @@ To contribute:
 `git checkout -b feature/your-feature-name`
 3. Commit and push your changes.
 4. Open a pull request.
-**License**
+
+### License
 This project is licensed under the **MIT License**. See the LICENSE file for details.
-**Why Use This Framework?**
+
+## Why Use This Framework?
 * Build and test **DSP bidders** against **realistic SSP bid requests**.
 * Simplify debugging and development with pre-configured templates.
 * Fully compatible with OpenRTB protocols and developer-friendly.
