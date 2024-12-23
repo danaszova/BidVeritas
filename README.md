@@ -1,7 +1,7 @@
 
-# **SSP Bid Request Testing Framework**
+# **BidVeritas Testing Framework**
 
-Welcome to the **SSP Bid Request Testing Framework**! This project provides a complete, realistic testing environment for developers building **DSP bidders** by simulating bid requests for major **Supply-Side Platforms (SSPs)**. Whether you're working on OpenRTB integrations or testing DSP responses, this tool simplifies the process by offering **realistic bid request templates** for multiple ad formats.
+Welcome to the **BidVeritas Testing Framework**! This project provides a complete, realistic testing environment for developers building **DSP bidders** by simulating bid requests for major **Supply-Side Platforms (SSPs)**. Whether you're working on OpenRTB integrations or testing DSP responses, this tool simplifies the process by offering **realistic bid request templates** for multiple ad formats.
 
 ---
 
