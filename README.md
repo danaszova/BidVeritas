@@ -22,6 +22,38 @@ Welcome to the **SSP Bid Request Testing Framework**! This project provides a co
 - ✅ **Developer-Friendly**:
   - Ready-to-use templates to **simulate SSP bid requests** and validate DSP responses.
 
+## New Features 🚀
+
+BidVeritas is constantly evolving to provide the most accurate and efficient OpenRTB testing framework. Below are the latest features added to enhance your experience:
+
+### 🔄 Realistic Bid Stream Simulation
+- **Purpose**: Test your bidder under real-world conditions with authentic OpenRTB bid streams.
+- **Details**: Mimics live traffic patterns, including frequency, volume, and realistic timing for maximum testing reliability.
+
+### 🎲 Mock DSPs
+- **Purpose**: Interact with simulated Demand-Side Platforms to validate integrations and troubleshoot without relying on live DSPs.
+- **Details**: Mock DSPs support OpenRTB standards and customizable responses to match varied use cases.
+
+### 🤖 Faker Integration
+- **Purpose**: Generate dynamic, realistic data for comprehensive testing scenarios.
+- **Details**: Utilizes `faker.js` to create diverse datasets, including user demographics, ad creatives, geo-locations, and more.
+
+### ⚡ Performance-Focused Framework
+- **Purpose**: Ensure your bidder performs optimally under high-stress conditions.
+- **Details**: Tools for load testing, latency measurement, and scalability analysis included.
+
+### 📊 Advanced Metrics
+- **Purpose**: Gain deeper insights into your bidder's performance.
+- **Details**: Analyze win rates, bid response times, error rates, and other KPIs in one place.
+
+### 🛠️ Modular Architecture
+- **Purpose**: Customize testing environments according to your needs.
+- **Details**: Easily plug and play components, including bid stream simulators and DSP mock servers.
+
+
+
+
+
 ---
 
 ## **Table of Contents**
