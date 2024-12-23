@@ -27,6 +27,7 @@
     "@nestjs/core": "^10.4.15",
     "@nestjs/platform-express": "^10.4.15",
     "ajv": "^8.17.1",
+    "axios": "^1.7.9",
     "geoip-lite": "^1.4.10",
     "glob": "^11.0.0",
     "reflect-metadata": "^0.2.2",
